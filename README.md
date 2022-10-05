@@ -33,6 +33,8 @@ Arch
 $ sudo pacman -Sy python-pip
 ```
 
+In some rare cases you also need to install the package pyrhon3-tk
+
 ### pdf2image
 
 ```
