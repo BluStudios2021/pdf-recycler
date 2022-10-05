@@ -18,31 +18,24 @@ Debain, Ubuntu, PopOS
 
 ```
 $ sudo add-apt-repository universe
-$ sudo apt install python3-pip
+$ sudo apt install python3-pip python3-tk
 ```
 
 Fedora
 
 ```
-$ sudo dnf install python3-pip
+$ sudo dnf install python3-pip python3-tkinter
 ```
 
 Arch
 
 ```
-$ sudo pacman -Sy python-pip
+$ sudo pacman -Sy python-pip tk
 ```
 
-In some rare cases you also need to install the package pyrhon3-tk
 
-### pdf2image
-
-```
-$ pip install pdf2image
-```
-
-### pysimplegui
+### pdf2image and pysimplegui (pip or pip3 depends on distro)
 
 ```
-$ pip install pysimplegui
+$ pip install pdf2image pysimplegui
 ```
